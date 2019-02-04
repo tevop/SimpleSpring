@@ -8,6 +8,7 @@
 	<bean id="hello" class="com.tevop.Hello">
 		<!-- <property name="name" value="wawa"/> -->
 	</bean>
+	<bean class="com.tevop.MyProcessor"/>
 	<!-- <bean class="org.springframework.beans.factory.access.TestBean" id="beans1.bean1">
 	<property name="name">
 		<value>beans1.bean1</value>
