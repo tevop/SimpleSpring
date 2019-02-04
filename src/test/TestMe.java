@@ -12,7 +12,7 @@ public class TestMe {
 	public void test() {
 		@SuppressWarnings("resource")
 		ApplicationContext context = 
-				new ClassPathXmlApplicationContext("bean.xml");
+				new ClassPathXmlApplicationContext("beans.xml");
 		Hello hello = (Hello)context.getBean("hello");
 		hello.hi();
 	}
